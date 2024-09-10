@@ -1,97 +1,118 @@
-/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
-
-body {
-    background-color: #f4f7f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.avatar {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
 }
-
-.form-container {
-    max-width: 800px;
+.image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.left-side {
+    font-family: Raleway;
+	background-color: 	#734F96;
+    padding: 40px;
+    text-align: left;
+}
+.right-side {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    padding: 40px 40px 40px 0;
+}
+.row{
+    width: 980px;
+}
+hr {
+	border: 0; 
+    height: 2px; 
+    background-color: #fff; 
+    margin: 20px 0; 
     width: 100%;
-    padding: 20px;
 }
-
-.conference-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 h2 {
-    margin-bottom: 20px;
-    text-align: center;
+	color: lavender; 
+	margin-top: 15px;
+    text-align: left;
+    font-size: 10px;
+}
+h3 {
+	margin-top: 10px;
+	color: lavender;
+    text-align: left;
 }
 
-.form-group {
-    margin-bottom: 15px;
+li {
+	margin-top: 8px;
+	color: lavender;
+    text-align: left;
 }
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
+h1 {
+	text-align: left;
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-input, select, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
+p {
+    text-align: left;
 }
-
-input:focus, select:focus, textarea:focus {
-    border-color: #333;
+.right-side hr {
+	border: 0; 
+    height: 2px; 
+    background-color: #88848c;
+    margin-top: 15px; 
+    width: 145%;
 }
-
-.form-group-full {
-    grid-column: 1 / -1; /* Occupy full width in the grid */
+.right-side h1 {
+	color: black;
 }
-
-/* Submit Button */
-.form-actions {
-    text-align: center;
+.right-side h2 {
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+.right-side li {
+	color:#734F96;
 }
-
-button:hover {
-    background-color: #555;
+.right-side ol{
+	font-size: 20px;
+	width: 150%;
 }
-
-/* Grid Layout for larger screens */
-@media (min-width: 600px) {
-    .conference-form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-
-    .form-group-full {
-        grid-column: span 2;
-    }
-
-    .form-actions {
-        grid-column: span 2;
-    }
+.right-side ul {
+  margin-left: 40px; 
+	font-size: 15px;
+}
+.right-side p {
+	color: #734F96;
+	width: 150%;
+	font-size: 16px;
+}
+.osvita {
+	font-size: 18px;
+    margin-left: 35px;
+}
+.course1 {
+	font-size: 18px;
+    margin-left: 290px;
+}
+.course2 {
+	font-size: 18px;
+    margin-left: 225px;
+}
+.course3 {
+	font-size: 18px;
+    margin-left: 350px;
+}
+.course4 {
+	font-size: 18px;
+    margin-left: 190px;
+}
+#education {
+    margin-top: 45px;
 }
