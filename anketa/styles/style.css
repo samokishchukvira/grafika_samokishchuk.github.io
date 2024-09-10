@@ -93,9 +93,13 @@ p {
 	width: 150%;
 	font-size: 16px;
 }
-.osvita {
+.osvita1 {
 	font-size: 18px;
-    margin-left: 35px;
+    margin-left: 327px;
+}
+.osvita2 {
+	font-size: 18px;
+    margin-left: 70px;
 }
 .course1 {
 	font-size: 18px;
@@ -103,15 +107,15 @@ p {
 }
 .course2 {
 	font-size: 18px;
-    margin-left: 225px;
+    margin-left: 227px;
 }
 .course3 {
 	font-size: 18px;
-    margin-left: 350px;
+    margin-left: 355px;
 }
 .course4 {
 	font-size: 18px;
-    margin-left: 190px;
+    margin-left: 195px;
 }
 #education {
     margin-top: 45px;
