@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="conference-form">
+            <h2>Conference Registration</h2>
+
+            <!-- First Name and Last Name -->
+            <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" required>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+123456789">
+            </div>
+
+            <!-- Conference Type -->
+            <div class="form-group">
+                <label for="conference-type">Conference Type *</label>
+                <select id="conference-type" required>
+                    <option value="" disabled selected>Select a type</option>
+                    <option value="tech">Tech Conference</option>
+                    <option value="business">Business Conference</option>
+                    <option value="education">Education Conference</option>
+                </select>
+            </div>
+
+            <!-- Comments -->
+            <div class="form-group form-group-full">
+                <label for="comments">Comments</label>
+                <textarea id="comments" rows="5"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-actions">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
